@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head lang = "en">
+        <meta charset="utf-8">
+        <title>Hair Salon</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel = "stylesheet" href = "design.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light custom-navbar" id = "navbar">
+                <h3 class="salon-name">Hair Salon</h3>
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" aria-current="page" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#staff">Our Staff</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+                <div class="ml-auto">
+                    <a href="#" class="btn btn-outline-primary me-2">Sign In</a>
+                    <a href="#" class="btn btn-primary">Sign Up</a>
+                </div>
+            </nav>
+        </header>
+        
+        <section id="home">
+            <div>
+                <h1>Hair Salon (maybe add like customer reviews or pics of work here)</h1>
+                <a href="" class="btn">Schedule an Appointment</a>
+            </div>
+        </section>
+    
+        <section id = "info">
+            <div id = "info" class = "container-flex">
+                <div class="row">
+                    <div class="col-md-3" id = "title">
+                      <h3>Open Hours</h3>
+                    </div>
+
+                    <div class="col-md-9" id="open-hours">
+                        <p>Monday - Friday: 9 AM - 5 PM</p>
+                        <p>Saturday: 10 AM - 4 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="services">
+            <div class="container-flex">
+                <h2>Services</h2>
+    
+                <div class = "row">
+                    <div class = "col-md-6">
+                        <h5>Coloring 100$</h5>
+                        <img src="images/coloring.jpeg" alt="Coloring">
+                        <p>Revitalize your hair with our professional coloring services. Whether you're looking for bold highlights, natural balayage, or a complete color change, our skilled colorists will deliver vibrant, lasting results.</p>
+                    </div>
+
+                    <div class = "col-md-6">
+                        <h5>Haircut Women 60$</h5>
+                        <img src="images/03a3f59f-e718-407b-a532-49c7db02ef56.jpeg" alt="Haircut Women">
+                        <p>Our women’s haircut services offer personalized styling tailored to your unique preferences. Whether you desire a chic bob, layered cut, or something bold, we ensure a flawless finish every time.</p>
+                    </div>
+                </div>
+    
+    
+                <div class = "row">
+                    <div class = "col-md-6">
+                        <h5>Haircut Men 50$</h5>
+                        <img src="images/cbd007f8-29c7-4ea5-a22c-b156087ced56.jpeg " alt="Haircut Men">
+                        <p>Achieve a sharp and polished look with our expert men’s haircut services. From classic styles to modern trends, our barbers deliver precision and attention to detail for a fresh, confident look.</p>
+                    </div>
+                    <div class = "col-md-6">
+                        <h5>Styling 70$</h5>
+                        <img src="images/cea39b44-fee3-4b2a-be15-018e005a4b31.jpeg" alt="Styling">
+                        <p>Elevate your look with our professional hair styling services. From sleek updos to soft waves, we create styles that perfectly complement any occasion, ensuring you leave feeling fabulous.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <section id="staff">
+            <h2>Our Staff</h2>
+            <div class="container-flex">
+                <div class = "row">
+                    <div class = "col-md-6 staff-member">
+                        <h6>Sarah Williams – Senior Hairstylist</h6>
+                        <img src="images/Sarah.jpeg" alt="Staff 1">
+                        <p>With 10+ years in the industry, Sarah specializes in color correction, balayage, and precision cutting. Known for her warm, patient approach, she ensures clients leave confident. Certified in advanced coloring and keratin treatments, Sarah offers expert care for all hair needs.</p>
+                    </div>
+                    <div class = "col-md-6 staff-member">
+                        <h6>Jasmine Lee – Creative Stylist</h6>
+                        <img src="images/Jasmine.jpeg" alt="Staff 2">
+                        <p>With 5 years of experience, Jasmine specializes in creative cuts, vivid fashion colors, and men's grooming. Her outgoing, artistic nature drives her to push boundaries with bold styles and trends. Trained in barbering and certified in vivid coloring, Jasmine brings a fresh, edgy approach to her work.</p>
+                    </div>
+                </div>
+
+
+                <div class = "row">
+                    <div class = "col-md-6 staff-member">
+                        <h6>Mark Reynolds – Salon Manager & Hairstylist</h6>
+                        <img src="images/Mark.jpeg" alt="Staff 3">
+                        <p>With 12 years of experience in both styling and management, Mark specializes in classic cuts, professional styling, and customer service. Organized and friendly, he ensures the salon runs smoothly while providing top-tier service to every client. Mark’s extensive training in salon management and customer relations enhances his expertise in both hairstyling and leadership.</p>
+                    </div>
+                    <div class = "col-md-6 staff-member">
+                        <h6>Emily Turner – Junior Stylist</h6>
+                        <img src="images/Emily.jpeg" alt="Staff 4">
+                        <p>With two years of experience as an assistant and stylist, Emily specializes in blowouts, hair braiding, and color treatments. Bubbly and enthusiastic, she is passionate about learning new techniques and delivering top-notch service. Recently certified in cosmetology, Emily continues her education in advanced styling.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id= "contact" class="d-flex justify-content-center align-items-center">
+            
+            <form class="form-horizontal">
+                <h2>Contact Us</h2>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" />
+                    <label class="form-label" for="name">Name</label>
+                </div>
+              
+               
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email">
+                    <label for="email">Email address:</label>
+                </div>
+              
+                
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" id="message"></textarea>
+                    <label class="form-label" for="message">Message</label>
+                </div>
+              
+                <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button>
+
+             </form>
+        </section>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,182 @@
+/* General resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #E5E3DE;
+}
+section{
+    margin-top: 70px;
+    padding: 80px 20px;
+}
+
+.custom-navbar {
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    background-color: #E5E3DE;
+    width: 100%;
+    
+}
+
+
+
+.salon-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+
+nav ul li a:hover {
+    color: rgb(114, 93, 167);
+}
+
+.auth-buttons .button {
+    background-color: rgb(114, 93, 167);
+    color: #E5E3DE;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+
+.auth-buttons .button:hover {
+    background-color:  #545A67;
+}
+
+
+
+/* Hero section */
+#home {
+    background-image: url('images/4c159c6b-d6f5-4873-b1ab-37b1100b2211.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #E5E3DE;
+}
+
+#home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: rgb(114, 93, 167);
+    color: #E5E3DE;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #545A67;
+}
+
+
+
+/* Info Section */
+#open-hours{
+    text-align: center;
+}
+#title {
+    text-align: left;
+    
+}
+
+/* Services Section */
+#services {
+    padding: 20px;
+}
+
+#services h2 {
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+#services img {
+    width: 45%;
+    height: auto;
+    padding: 10px;
+    float:right;
+    border-radius: 5%;
+}
+
+#services p {
+    text-align: justify;
+    padding-right: 20px;
+}
+#services h5{
+    font-weight: bold;;
+}
+
+
+
+
+
+
+/* Staff Section */
+#staff {
+    padding: 20px;
+}
+
+#staff h6 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#staff p {
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 20px;
+    column-width: 400px;
+
+}
+#staff img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.staff-member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+#contact {
+    padding: 20px; 
+}
+
+#contact form {
+    max-width: 600px; 
+    width: 100%; 
+    padding: 20px; 
+    border-radius: 8px;
+}
+
+
+
+
